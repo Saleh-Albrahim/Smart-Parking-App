@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">المواقف الذكية</string>
+    <string-array name="c">
+        <item>كلية علوم الحاسب</item>
+        <item>كلية الهندسة</item>
+        <item>كلية العلوم التطبيقيه</item>
+        <item>كلية القانون</item>
+        <item>كلية ادارة الأعمال</item>
+    </string-array>
+
+</resources>
