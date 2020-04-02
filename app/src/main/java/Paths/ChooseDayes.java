@@ -1,4 +1,4 @@
-package com.example.smartparking;
+package Paths;
 
 import android.content.Intent;
 import android.support.annotation.Nullable;
@@ -8,6 +8,11 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import com.example.smartparking.R;
+
+import Maps.ShortCut;
+import Maps.Nvm;
 
 public class ChooseDayes extends AppCompatActivity {
 
@@ -31,7 +36,7 @@ public class ChooseDayes extends AppCompatActivity {
 
     public void save(View v){
         Toast.makeText(this,"تم الحفظ",Toast.LENGTH_SHORT).show();
-        startActivityForResult(new Intent(this,Nvm.class),101);
+        startActivityForResult(new Intent(this, Nvm.class),101);
 
 
     }
@@ -39,7 +44,7 @@ public class ChooseDayes extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        startActivity(new Intent(this,ChooseC.class));
+        startActivity(new Intent(this, ShortCut.class));
     }
 }
 

@@ -1,4 +1,4 @@
-package com.example.smartparking;
+package Maps;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,7 +8,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.Spinner;
 
-public class ChooseC extends AppCompatActivity {
+import com.example.smartparking.R;
+
+public class ShortCut extends AppCompatActivity {
     ImageView imageView;
     Spinner spinner;
     @Override
@@ -16,10 +18,10 @@ public class ChooseC extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_choose_c);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.spinner_item,getResources().getStringArray(R.array.c));
-         spinner =findViewById(R.id.s1);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.spinner_item,getResources().getStringArray(R.array.c));
+        spinner =findViewById(R.id.s1);
         spinner.setAdapter(adapter);
-         imageView=findViewById(R.id.img);
+        imageView=findViewById(R.id.img);
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener(){
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {

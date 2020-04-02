@@ -1,7 +1,9 @@
-package com.example.smartparking;
+package Maps;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.smartparking.R;
 
 public class Nvm extends AppCompatActivity {
 

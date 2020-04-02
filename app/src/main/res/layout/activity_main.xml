@@ -38,7 +38,7 @@
                     android:src="@drawable/usrusr" />
 
                 <EditText
-                    android:id="@+id/usrusr"
+                    android:id="@+id/usernasme"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
@@ -74,7 +74,7 @@
                     android:src="@drawable/pswd" />
 
                 <EditText
-                    android:id="@+id/pswrdd"
+                    android:id="@+id/password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"

@@ -9,11 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ChooseC"></activity>
-        <activity android:name=".Nvm" />
-        <activity android:name=".ChooseDayes" />
-        <activity android:name=".login" />
-        <activity android:name=".MainActivity">
+        <activity android:name="Maps.ShortCut"></activity>
+        <activity android:name="Maps.Nvm" />
+        <activity android:name="Paths.ChooseDayes" />
+        <activity android:name="Main.Register" />
+        <activity android:name="Main.MainActivity"/>
+        <activity android:name="Main.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

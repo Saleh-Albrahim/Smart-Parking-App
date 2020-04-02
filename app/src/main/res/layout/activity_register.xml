@@ -144,27 +144,38 @@
         tools:layout_editor_absoluteX="10dp"
         tools:layout_editor_absoluteY="10dp">
 
+
+        <CheckBox
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+
+            android:layout_gravity="center"
+            android:text="عضو هيئة تدريس ؟"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
         <TextView
             android:id="@+id/sup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:layout_marginBottom="50dp"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/border"
             android:gravity="center"
             android:letterSpacing="0.2"
             android:padding="16dp"
             android:text="التسجيل"
- android:onClick="start"
+            android:onClick="register"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/lin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:background="@drawable/border"
             android:padding="10dp"
             android:textColor="@color/colorPrimaryDark"
             android:layout_marginBottom="30dp"
